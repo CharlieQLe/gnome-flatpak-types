@@ -1,0 +1,20 @@
+{
+  "name": "gnome-flatpak-types",
+  "version": "44.0.0",
+  "main": "index.js",
+  "type": "module",
+  "repository": "git@github.com:CharlieQLe/gnome-flatpak-types.git",
+  "author": "Charlie Le <20309750+CharlieQLe@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^5.0.4"
+  },
+  "devDependencies": {
+    "@ts-for-gir/cli": "^3.0.0-beta.12"
+  },
+  "scripts": {
+    "copy:girs": "sh scripts/copy_girs.sh",
+    "download:deps": "sh scripts/download_deps.sh",
+    "generate:gi": "ts-for-gir generate --configName='.ts-for-girrc.js'"
+  }
+}
