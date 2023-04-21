@@ -1,0 +1,5 @@
+girs/
+scripts/
+.ts-for-girrc.js
+tsconfig.json
+*.tgz

@@ -1,17 +1,15 @@
 {
+    "extends": "./tsconfig.alias.json",
     "compilerOptions": {
         "experimentalDecorators": true,
         "skipLibCheck": true,
         "strict": true,
         "allowJs": true,
 	    "target": "ESNext",
-        "baseUrl": ".",
         "moduleResolution": "node",
         "module": "ESNext",
         "outDir": "tsc-out",
         "lib": [ "ESNext" ]
     },
-    "include": [
-        "@types/**/*"
-    ]
+    "files": [ "@types/Gjs/index.d.ts" ]
 }
