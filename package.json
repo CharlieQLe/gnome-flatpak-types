@@ -1,6 +1,6 @@
 {
   "name": "gnome-flatpak-types",
-  "version": "44.0.0",
+  "version": "44.0.1",
   "main": "index.js",
   "type": "module",
   "repository": "git@github.com:CharlieQLe/gnome-flatpak-types.git",

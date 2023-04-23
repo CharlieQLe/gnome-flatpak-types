@@ -5,11 +5,10 @@
         "skipLibCheck": true,
         "strict": true,
         "allowJs": true,
-	    "target": "ESNext",
-        "moduleResolution": "node",
-        "module": "ESNext",
-        "outDir": "tsc-out",
-        "lib": [ "ESNext" ]
+	    "target": "ES2021",
+        "moduleResolution": "node16",
+        "module": "ES2020",
+        "lib": [ "ES2021" ]
     },
     "files": [ "@types/Gjs/index.d.ts" ]
 }
