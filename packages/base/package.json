@@ -1,0 +1,12 @@
+{
+  "name": "@gnome-flatpak-types/base",
+  "version": "44.0.0",
+  "main": "index.js",
+  "type": "module",
+  "repository": "git@github.com:CharlieQLe/gnome-flatpak-types.git",
+  "author": "Charlie Le <20309750+CharlieQLe@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^5.0.4"
+  }
+}

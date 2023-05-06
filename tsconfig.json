@@ -12,6 +12,6 @@
         "lib": [ "ESNext" ]
     },
     "include": [
-        "@types/**/*"
+        "src/**/*"
     ]
 }

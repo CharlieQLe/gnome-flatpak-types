@@ -1,7 +1,7 @@
 {
   "name": "gnome-flatpak-types",
-  "version": "44.0.1",
-  "main": "index.js",
+  "version": "44.0.2",
+  "main": "ambient.js",
   "type": "module",
   "repository": "git@github.com:CharlieQLe/gnome-flatpak-types.git",
   "author": "Charlie Le <20309750+CharlieQLe@users.noreply.github.com>",
@@ -16,6 +16,7 @@
   "scripts": {
     "copy:girs": "sh scripts/copy_girs.sh",
     "download:deps": "sh scripts/download_deps.sh",
-    "generate:gi": "ts-for-gir generate --configName='.ts-for-girrc.js'"
+    "generate:gi": "ts-for-gir generate --configName='.ts-for-girrc.js'",
+    "generate:ambient": "tsc && node tsc-out/index.js"
   }
 }
